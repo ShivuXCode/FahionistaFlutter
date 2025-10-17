@@ -1,4 +1,4 @@
-# 👗 Fashionista - Flutter E-Commerce App
+# Fashionista - Flutter E-Commerce App
 
 <div align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
@@ -12,36 +12,36 @@ A modern, elegant **Flutter-based cross-platform mobile application** for fashio
 
 ---
 
-## 📱 About The Project
+## About The Project
 
 **Fashionista** is a Flutter mobile application that showcases a modern approach to fashion retail. The app provides users with an intuitive interface to browse fashion items displayed in a responsive grid layout with high-quality product images, pricing details, and interactive elements.
 
 Built with **Material Design** principles and a cohesive **pink color theme**, Fashionista delivers an elegant shopping experience across Android and iOS platforms.
 
-### ✨ Key Features
+### Key Features
 
-- 🎨 **Modern UI Design** - Clean, elegant interface with Material Design components
-- 📱 **Responsive Layout** - 2-column grid view that adapts to different screen sizes
-- 🖼️ **Product Catalog** - Display of 8 curated fashion items with images and pricing
-- ❤️ **Favorite Items** - Heart icon for marking favorite products (UI ready)
-- 🛒 **Add to Cart** - Shopping cart buttons on each product card (UI ready)
-- 🧭 **Bottom Navigation** - Quick access to Home, Cart, and Checkout sections
-- 🎯 **Cross-Platform** - Works on Android, iOS, Web, and Desktop platforms
-
----
-
-## 🎯 Project Objectives
-
-✅ Build a user-friendly mobile application for fashion e-commerce  
-✅ Provide comprehensive product browsing experience  
-✅ Implement responsive and adaptive UI layouts  
-✅ Demonstrate Flutter's cross-platform capabilities  
-✅ Create a scalable foundation for future e-commerce features  
-✅ Apply Material Design principles and best practices  
+- **Modern UI Design** - Clean, elegant interface with Material Design components
+- **Responsive Layout** - 2-column grid view that adapts to different screen sizes
+- **Product Catalog** - Display of 8 curated fashion items with images and pricing
+- **Favorite Items** - Heart icon for marking favorite products (UI ready)
+- **Add to Cart** - Shopping cart buttons on each product card (UI ready)
+- **Bottom Navigation** - Quick access to Home, Cart, and Checkout sections
+- **Cross-Platform** - Works on Android, iOS, Web, and Desktop platforms
 
 ---
 
-## 🛠️ Technologies Used
+## Project Objectives
+
+- Build a user-friendly mobile application for fashion e-commerce  
+- Provide comprehensive product browsing experience  
+- Implement responsive and adaptive UI layouts  
+- Demonstrate Flutter's cross-platform capabilities  
+- Create a scalable foundation for future e-commerce features  
+- Apply Material Design principles and best practices  
+
+---
+
+## Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -54,7 +54,7 @@ Built with **Material Design** principles and a cohesive **pink color theme**, F
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -74,7 +74,7 @@ linux/                  # Linux desktop files
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -117,13 +117,31 @@ Before running this project, ensure you have:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-> Add screenshots of your app here once you have them!
+### Home Page - Product Catalog
+<div align="center">
+  <img src="screenshots/home_page.png" alt="Home Page" width="300"/>
+  <p><i>Main product catalog displaying fashion items in a responsive grid layout</i></p>
+</div>
+
+### Product Cards
+<div align="center">
+  <img src="screenshots/product_card.png" alt="Product Card" width="300"/>
+  <p><i>Detailed product card showing image, name, price, and action buttons</i></p>
+</div>
+
+### Bottom Navigation
+<div align="center">
+  <img src="screenshots/navigation.png" alt="Bottom Navigation" width="300"/>
+  <p><i>Bottom navigation bar for easy access to Home, Cart, and Checkout</i></p>
+</div>
+
+> **Note:** To add screenshots, create a `screenshots` folder in the project root and add your images there.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Current Implementation
 
@@ -149,73 +167,42 @@ GridView Builder → Product Cards → UI Rendering
 
 ---
 
-## 📦 Current Modules
+## Current Modules
 
-### 1. **App Initialization Module**
+### 1. App Initialization Module
 - App launch and configuration
 - Theme setup with pink color scheme
 - Navigation routing
 
-### 2. **Product Display Module**
+### 2. Product Display Module
 - 8 hardcoded fashion products
 - Grid layout with images, names, and prices
 - Network image loading from Imgur
 
-### 3. **UI Layout Module**
+### 3. UI Layout Module
 - AppBar with app title
 - Responsive grid view (2 columns)
 - Product cards with shadows and rounded corners
 
-### 4. **Navigation Module** (UI Only)
+### 4. Navigation Module (UI Only)
 - Bottom navigation bar
 - Home, Cart, Checkout navigation items
 - Currently non-functional (no routing)
 
-### 5. **Theme & Styling Module**
+### 5. Theme & Styling Module
 - Pink primary color theme
 - Poppins font family
 - Consistent Material Design styling
 
 ---
 
-## 🔮 Future Enhancements
-
-### Planned Features
-
-- [ ] **Backend Integration** - Firebase/Cloud Firestore for data storage
-- [ ] **User Authentication** - Login/Register with Firebase Auth
-- [ ] **Shopping Cart** - Functional cart with add/remove items
-- [ ] **Checkout System** - Payment gateway integration
-- [ ] **State Management** - Provider/Riverpod for app state
-- [ ] **Search & Filter** - Product search and category filters
-- [ ] **User Profile** - Account management and order history
-- [ ] **Wishlist** - Save favorite items
-- [ ] **Push Notifications** - Order updates and promotions
-- [ ] **Real-time Sync** - Cart synchronization across devices
-- [ ] **Product Reviews** - Rating and review system
-- [ ] **Order Tracking** - Real-time delivery status
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **ShivuXCode**
 
@@ -224,16 +211,14 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Flutter documentation and community
 - Material Design guidelines
 - Imgur for product image hosting
-- All contributors and supporters
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ and Flutter</p>
-  <p>⭐ Star this repo if you find it helpful!</p>
+  <p>Made with Flutter</p>
 </div>
