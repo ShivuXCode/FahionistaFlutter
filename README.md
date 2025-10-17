@@ -119,25 +119,17 @@ Before running this project, ensure you have:
 
 ## Screenshots
 
-### Home Page - Product Catalog
 <div align="center">
-  <img src="screenshots/home_page.png" alt="Home Page" width="300"/>
-  <p><i>Main product catalog displaying fashion items in a responsive grid layout</i></p>
+  <img src="screenshots/1.jpg" alt="Home Page" width="200"/>
+  <img src="screenshots/2.jpg" alt="Product Grid" width="200"/>
+  <img src="screenshots/3.jpg" alt="Cart Page" width="200"/>
+  <img src="screenshots/4.jpg" alt="Checkout Page" width="200"/>
+  <img src="screenshots/5.jpg" alt="Full Screen View" width="200"/>
 </div>
 
-### Product Cards
 <div align="center">
-  <img src="screenshots/product_card.png" alt="Product Card" width="300"/>
-  <p><i>Detailed product card showing image, name, price, and action buttons</i></p>
+  <p><i>Fashionista app showcasing Home, Cart, Checkout, and Product views</i></p>
 </div>
-
-### Bottom Navigation
-<div align="center">
-  <img src="screenshots/navigation.png" alt="Bottom Navigation" width="300"/>
-  <p><i>Bottom navigation bar for easy access to Home, Cart, and Checkout</i></p>
-</div>
-
-> **Note:** To add screenshots, create a `screenshots` folder in the project root and add your images there.
 
 ---
 
